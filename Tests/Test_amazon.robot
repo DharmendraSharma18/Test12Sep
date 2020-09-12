@@ -9,6 +9,7 @@ Test Launch_amazon
     When Page should contain element    //*[@aria-label="Amazon"]
     Then log    "Home Page LOaded"
     log    Amazon is launched
+    log    git commited successfully
     close browser
 
 *** Keywords ***
